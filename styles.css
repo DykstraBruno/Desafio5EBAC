@@ -1,7 +1,21 @@
+
 body {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 300px;
+    background-color: #772083;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}   
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
