@@ -1,6 +1,7 @@
-body{
+body {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
 }
