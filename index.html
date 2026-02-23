@@ -9,13 +9,18 @@
 <body>
     <main>
     <h1>Controle de clientes</h1>
-            <input placeholder="Digite o nome do cliente"></input>
-        <button onclick="cadastrar" placeholder="Digite o cliente para cadastro">Cadastrar</button>
-       
-        <button onclick="listar">Listar</button>
-        
-        <button onclick="excluir" placeholder="Digite o cliente que deseja excluir"">Excluir</button>
+    <div class="cadastro-container">
+            <input type="text" id="nome" placeholder="Digite o nome do cliente">
+            <input type="email" id="email" placeholder="Digite o e-mail do cliente">
+        <button onclick="cadastrarCliente()">Cadastrar</button>
+    </div>
+    <hr>
+        <h2>Clientes Cadastrados</h2>
+        <button onclick="listarClientes()">Atualizar Lista</button>
+     <div id="lista-clientes">
+            <!-- Os clientes aparecerão aqui dentro via JavaScript -->
+        </div>
     </main>
-
+    <script src="scripts.js"></script>
 </body>
 </html>
