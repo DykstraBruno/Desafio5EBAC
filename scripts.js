@@ -4,6 +4,10 @@ fetch("https://crudcrud.com/api/5b1dea69f8784bc9b8b7e07c26b66660/clientes")
 .then((clientesCadastrados) => {
     clientesCadastrados.array.forEach(clientes)
 })
+
+    clientesCadastrados.forEach(clientes => {
+        const nome = document.getElementById("nome");
+    });
 const nome = document.getElementById("nome");
 
 const email = document.getElementById("email");
