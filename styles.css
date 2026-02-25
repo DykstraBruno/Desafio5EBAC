@@ -1,25 +1,31 @@
-
-body {
-    text-align: center;
+body{
+    background-color: rgb(113, 243, 200);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0,0.05);
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+input-group {
     display: flex;
     gap: 10px;
-    max-width: 300px;
-    background-color: #95e6f5;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
     margin-bottom: 20px;
 }
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}   
-input{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+
+input {
+    flex: 1; /* Faz o input ocupar o espaço restante */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    background-color: #28a745; /* Verde do print */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }

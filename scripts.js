@@ -15,7 +15,7 @@ fetch("https://crudcrud.com/api/5b1dea69f8784bc9b8b7e07c26b66660/clientes")
 document.getElementById("add").addEventListener("click", ()={
     const nome = document.getElementById("cadastrar").value
    fetch ("https://crudcrud.com/api/5b1dea69f8784bc9b8b7e07c26b66660/clientes" , {
-    method: "POST",
+    method: "POST","PUT", "DELETE"
     headers: {
         "Content-Type": "application/json"
     },
@@ -29,7 +29,7 @@ document.getElementById("add").addEventListener("click", ()={
    }))
     const email = document.getElementById("cadastrar").value
     fetch ("https://crudcrud.com/api/5b1dea69f8784bc9b8b7e07c26b66660/clientes" , {
-    method: "POST",
+    method: "POST","PUT", "DELETE"
     headers: {
         "Content-Type": "application/json"
     },
