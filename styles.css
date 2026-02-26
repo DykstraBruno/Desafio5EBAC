@@ -14,15 +14,22 @@ input-group {
 }
 
 input {
-    flex: 1; /* Faz o input ocupar o espaço restante */
+    flex: 1; 
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 6px;
     outline: none;
 }
-
 button {
-    background-color: #28a745; /* Verde do print */
+    background-color: #d00a0a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button1 {
+    background-color: #28a745; 
     color: white;
     border: none;
     padding: 10px 20px;

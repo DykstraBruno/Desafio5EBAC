@@ -44,7 +44,7 @@ document.getElementById("add").addEventListener("click", () => {
     })
     .then((novoCliente) => {
         const item = document.createElement("li");
-        item.innerHTML = `${novoCliente.nome} (${novoCliente.email}) <button>X</button>`;
+        item.innerHTML = `${novoCliente.nome} (${novoCliente.email}) <button.excluir>X</button.excluir>`;
         listaDeExibicao.appendChild(item);
 
         const botaoExcluir = item.querySelector("button");
